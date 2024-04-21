@@ -13,7 +13,10 @@ function App() {
     return (
         <div className="App">
             <header>
-                <img src={LOGO} className="logo-image" alt="logo"></img>
+                <div class="header-left">
+                    <img src={LOGO} className="logo-image" alt="logo"></img>
+                    <Link to="#" class="mypage">マイページ</Link>
+                </div>
             </header>
             <main> 
                 <ul> {/*　この2つのリストは画面遷移しやすくするための仮置き。後で消す。 */}
@@ -32,7 +35,7 @@ function App() {
                 </Routes>
             </main>
             <footer>
-                フッター
+                <p class="footer-menu">フッター</p>
             </footer>
         </div>
 

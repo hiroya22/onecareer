@@ -7,8 +7,8 @@
   pointer-events: none;
   float: left;
 }
-body{
-  margin-top: 50px;
+main{
+  margin-top: 100px;
 }
 
 
@@ -43,7 +43,52 @@ body{
   }
 }
 
+
+
+/* ヘッダーの編集*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.header-left {
+  float: left;
+  margin-top: 20px;
+  color: white;
+  font-size: 20 px;
+}
+
+.mypage{
+  color:azure
+}
+
+/* フッターの編集*/
+footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  top: 0;
+  z-index: 10;
+}
+.footer-menu {
+  color: white;
+}
+
+/* 遷移後ページ*/
+
 .item{
   text-align: left;
   margin-left: 10%;
+}
+
+.list{
+  text-align: left;
+  margin-left: 15%;
 }
