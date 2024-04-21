@@ -1,15 +1,14 @@
-import PHOTO1 from "./lecture.jpg"; 
+import "../styles/card.css"
 
-const Card = () => {
+const Card = ({ image }) => {
   return (
-    <li class="px-4 py-4 shadow-lg shadow-gray-300 rounded-2xl">
+    <div>
       <a href="#">
-        <div class="mt-3">
-            <img src={PHOTO1} class="w-full aspect-square object-cover rounded-2xl"
-            alt="sample"></img>
-        </div>
+        <div>
+          <img src={image} alt="sample" />
+          </div>
       </a>
-    </li>
+    </div>
   );
 };
 
