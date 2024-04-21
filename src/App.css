@@ -91,3 +91,40 @@ footer {
   text-align: left;
   margin-left: 15%;
 }
+
+.fixed-div {
+  position: fixed;
+  top: 65px;
+  right: 0;
+  height: 600px;
+  width: 300px;
+  overflow: auto;
+  border:1px solid #444444;
+  background-color:#EEEEEE;
+  z-index: 20;
+}
+
+.letter{
+  font-size: 20px;
+  top: 30px;
+  text-align: center;
+}
+
+.letter2{
+  font-size:20px;
+  text-align: left;
+  margin-left: 10%;
+
+}
+
+
+.fixed-div2 {
+  position: fixed;
+  bottom: 10px;
+  margin-top: 90%; 
+  right: 0;
+  overflow: auto;
+  border:1px solid #444444;
+  background-color:#a9cbe2;
+  z-index: 20;
+}
