@@ -67,19 +67,6 @@ header {
   color:azure
 }
 
-/* フッターの編集*/
-footer {
-  height: 200px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-}
-.footer-menu {
-  color: white;
-}
-
 /* 遷移後ページ*/
 
 .item{
