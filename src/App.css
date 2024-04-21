@@ -60,7 +60,7 @@ header {
   float: left;
   margin-top: 20px;
   color: white;
-  font-size: 20 px;
+  font-size: 20px;
 }
 
 .mypage{
@@ -69,11 +69,10 @@ header {
 
 /* フッターの編集*/
 footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  height: 700px;
+  height: 200px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position: absolute;
   bottom: 0;
   z-index: 10;
 }

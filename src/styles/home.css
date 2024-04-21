@@ -1,0 +1,50 @@
+button {
+    background-color: white;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.btn {
+    color: #0C88E1;
+}
+
+.intern_text {
+    color: #0C88E1;
+    font-size: 20px;
+}
+
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.intern {
+    width: 100%;
+}
+
+.intern_btn {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.buttons button {
+    width: 300px;
+    height: 50px;
+}
