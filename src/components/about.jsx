@@ -8,12 +8,13 @@ function About() {
         <p class="item item1">
             　ステップ1　スタートダッシュ講座に参加しよう！
         </p>
+
         <p class="item item2">
             　ステップ2　企業合同説明会に参加しよう！
         </p>
         <details>
             <summary class="item item3">ステップ3　ES提出準備をしよう！</summary>
-            <ul>
+            <ul class="list">
                 <ol>
                     自己分析セミナー
                 </ol>
@@ -27,7 +28,7 @@ function About() {
         </details>
         <details>
             <summary class="item item4">ステップ4　エントリーをしよう！</summary>
-            <ul>
+            <ul class="list">
                 <ol>
                     お気に入り企業の登録
                 </ol>
@@ -37,7 +38,7 @@ function About() {
             </ul>
         </details>
     </div>
-  );
+    );
 }
 
 export default About;
